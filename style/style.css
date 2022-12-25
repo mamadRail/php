@@ -1,0 +1,127 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: system-ui;
+}
+.form-container h1 {
+    color: #fff;
+}
+.form-container {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.form-container form{
+    display: inline-flex;
+    justify-items: start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.form-container form * {
+    margin-bottom: 20px;
+}
+.register-page {
+    background: #374151;
+}
+.form-container form label,
+.edit form label {
+    font-size: 17px;
+    FONT-WEIGHT: 500;
+}
+.form-container form input {
+    display: block !important;
+    padding: 0 10px;
+    width: 95%;
+    height: 35px;
+    border-radius: 3px;
+    border: unset !important;
+    outline: 1px solid #cfcfcf;
+    transition: all 0.3s;
+}
+.form-container form input:focus,
+.edit form input:focus {
+    border-radius: 6px;
+    outline-color: #1d3876;
+}
+.form-container form button,
+.edit form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: system-ui;
+    background: rgb(79 70 229);
+    border: unset;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 0px;
+    transition: all 0.3s;
+}
+.form-container form button:hover,
+.edit form button:hover {
+    background: rgb(61 54 183);
+}
+.newUser,
+.wrongData,
+.sucsess {
+    width: fit-content;
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.newUser span,
+.wrongData span,
+.sucsess span {
+    font-size: 18px;
+    FONT-WEIGHT: 500;
+}
+.users {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.edit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 80px;
+}
+table.userTable {
+    width: 70%;
+}
+.users {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    float: right;
+}
+.edit form {
+    display: grid;
+}
+.edit form input,
+.edit form select {
+    margin-bottom: 15px;
+}
+.edit form label {
+    margin-bottom: 10px;
+}
+.edit form input, .edit form select {
+    padding: 5px;
+    border: unset;
+    outline: 2px solid #4f46e5;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.edit form input::placeholder, .edit form select {
+    color: #4f46e5;
+    font-size: 17px;
+    padding-right: 15px;
+}
