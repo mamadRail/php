@@ -44,7 +44,7 @@ class CheckUser extends DB
         if (!empty($_SESSION)) {
             $userData = parent::get('username', $_SESSION);
             $userData = array_shift($userData);
-            return $userData['roule'];
+            return $userData['role'];
         } else {
             header('location: ../auth/register.php');
         }

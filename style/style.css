@@ -125,3 +125,18 @@ table.userTable {
     font-size: 17px;
     padding-right: 15px;
 }
+.addCourse {
+    clear: both;
+}
+.continer {
+    width: 1220px;
+    margin: auto;
+}
+.addCourse form {
+    display: inline-grid;
+    width: 40%;
+}
+.createcourseLabel {
+    width: 35%;
+    float: right;
+}
